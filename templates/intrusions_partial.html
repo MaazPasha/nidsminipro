@@ -1,0 +1,9 @@
+{% for intrusion in intrusions %}
+<tr>
+    <td>{{ intrusion.protocol }}</td>
+    <td>{{ intrusion.src_ip }}</td>
+    <td>{{ intrusion.src_port }}</td>
+    <td>{{ intrusion.dst_ip }}</td>
+    <td>{{ intrusion.dst_port }}</td>
+</tr>
+{% endfor %}
